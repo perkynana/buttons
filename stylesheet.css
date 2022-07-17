@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&family=Finlandica&display=swap");
+
+.body {
+  background-color: #bccbde;
+  width: 100%;
+  margin: 0px;
+  font-family: "Edu QLD Beginner", cursive, "Finlandica", sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2px auto;
+  text-decoration: underline;
+  background-color: #c2dde6;
+  border-radius: 5px;
+  width: 90%;
+  box-shadow: 5px 10px 5px #38494e;
+}
+
+.button_group1,
+.button_group2,
+.button_group3,
+.button_group4 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  margin: 50px;
+  position: relative;
+}
+
+.button1,
+.button2,
+.button3 {
+  margin: 10px;
+  font-family: "Edu QLD Beginner";
+  height: 50px;
+  width: 75px;
+}
+
+.button1 {
+  border-radius: 0px;
+  border-style: dotted;
+}
+
+.button2 {
+  border-radius: 5px;
+  border-style: dashed;
+}
+
+.button3 {
+  border-radius: 25px;
+  border-style: outset;
+}
+
+.button4,
+.button5,
+.button6 {
+  margin: 10px;
+  font-family: "Edu QLD Beginner";
+  height: 50px;
+  width: 100px;
+}
+
+.button4 {
+  border-radius: 0px;
+  border-color: #6e85b7;
+  background-color: #6e85b7;
+  box-shadow: 2px 2px #6e85b7;
+}
+
+.button5 {
+  border-radius: 5px;
+  border-color: #c4dfaa;
+  background-color: #c4dfaa;
+  box-shadow: 1px 1px #b1ce95;
+}
+
+.button6 {
+  border-radius: 25px;
+  border-color: #90c8ac;
+  background-color: #90c8ac;
+  box-shadow: 1px 1px #71a58b;
+}
+
+.button7,
+.button8,
+.button9 {
+  margin: 10px;
+  font-family: "Edu QLD Beginner";
+  height: 50px;
+  width: 125px;
+}
+
+.button7 {
+  border-radius: 0px;
+  border-color: #f7ff93;
+  background-color: #f7ff93;
+  box-shadow: 1px 1px #bec473;
+  font-size: large;
+}
+
+.button8 {
+  border-radius: 5px;
+  border-color: limegreen;
+  background-color: limegreen;
+  box-shadow: 1px 1px rgb(22, 78, 22);
+  color: white;
+}
+
+.button9 {
+  border-radius: 25px;
+  border-color: #7acfd6;
+  background-color: #7acfd6;
+  box-shadow: 1px 1px #7acfd6;
+}
+
+.button7:hover {
+  background-color: #f7c331;
+  border-color: #f7ff93;
+  border-radius: 100px;
+  font-size: small;
+  transition: 1s;
+}
+
+.button8:hover {
+  background-color: limegreen;
+  border-radius: 100px;
+  font-size: larger;
+  transition: 0s;
+  color: black;
+}
+
+.button9:hover {
+  background-color: #7acfd6;
+  border-radius: 5px;
+  font-size: large;
+  transition: 750ms;
+  box-shadow: 0px;
+  color: rgb(167, 103, 7);
+}
+
+.button10,
+.button11,
+.button12 {
+  margin: 10px;
+  font-family: "Edu QLD Beginner";
+  height: 100px;
+  width: 100px;
+}
+
+.button10 {
+  border-radius: 25px;
+  border-color: #7acfd6;
+  background-color: #7acfd6;
+  box-shadow: 1px 1px #7acfd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button10:hover {
+  font-size: 0;
+}
+
+.button10:hover:after {
+  content: "Hi Wassup";
+  letter-spacing: 3px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button11 {
+  border-radius: 25px;
+  border-color: #7acfd6;
+  background-color: #7acfd6;
+  box-shadow: 1px 1px #7acfd6;
+}
+
+.button12 {
+  border-radius: 25px;
+  border-color: #7acfd6;
+  background-color: #7acfd6;
+  box-shadow: 1px 1px #7acfd6;
+}
